@@ -20,7 +20,7 @@
         "Title": "Chef",
         "Description": "Trabajo de chef con contrato mínimo de 6 meses",
         "Indispensable": "Eperiencia mayor a 2 años",
-        "Opcional": "De 25 a 45 años, Sexo Masculino",
+        "Opcional": "De 25 a 45 años<br>Sexo Masculino",
         "Ubicacion": "Canada Quebec"
     },
     {
@@ -28,7 +28,7 @@
         "Title": "Autolavado",
         "Description": "Trabajo de chef con contrato mínimo de 6 meses",
         "Indispensable": "Sin experiencia necesaria",
-        "Opcional": "De 18 a 50 años, Sexo Indistinto",
+        "Opcional": "De 18 a 50 años<br>Sexo Indistinto",
         "Ubicacion": "Canada Toronto"
     }
 ]

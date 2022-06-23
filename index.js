@@ -50,17 +50,17 @@ item.addEventListener('scroll', function (event) {
 });
 
 function openWA() {
-    var link = ""
+    var link = "";
     if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-        link = "whatsapp://send?phone=+523311156607&text=Hola! Me interesa conseguir un trabajo!" // Mobile
+        link = "whatsapp://send?phone=+523311156607&text=Hola! Me interesa conseguir un trabajo!"; // Mobile
     }
     else{
-        link = "https://web.whatsapp.com/send?phone=+523311156607&text=Hola! Me interesa conseguir un trabajo!" // Web
+        link = "https://web.whatsapp.com/send?phone=+523311156607&text=Hola! Me interesa conseguir un trabajo!"; // Web
     }
-    window.open(link, "_blank")
+    window.open(link, "_blank");
 }
 
 function openFB() {
-    var link = "https://www.facebook.com/profile.php?id=100075279710129"
-    window.open(link, "_blank")
+    var link = "https://www.facebook.com/profile.php?id=100075279710129";
+    window.open(link, "_blank");
 }

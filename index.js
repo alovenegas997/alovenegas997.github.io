@@ -1,6 +1,6 @@
 var item = document.getElementById("contain");
 
-fetch("https://raw.githubusercontent.com/uhveg/uhveg.github.io/main/static/list_jobs.json")
+fetch("https://raw.githubusercontent.com/alovenegas997/alovenegas997.github.io/main/static/list_jobs.json")
 .then(response => {
     return response.json();
 })

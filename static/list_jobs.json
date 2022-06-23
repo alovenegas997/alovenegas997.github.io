@@ -2,7 +2,7 @@
     {
         "img_url": "https://www.svgrepo.com/show/91866/worker.svg",
         "Title": "Soldador",
-        "Description": "Trabajo de Soldador, contrato mínimo de 1 año",
+        "Description": "Trabajo de Soldador, contrato mínimo de 1 anio",
         "Indispensable": "Eperiencia mayor a 1 año",
         "Opcional": "De 18 a 50 años",
         "Ubicacion": "Canada Toronto"
@@ -10,8 +10,8 @@
     {
         "img_url": "https://www.svgrepo.com/show/397225/man-mechanic.svg",
         "Title": "Mecánico Automotriz",
-        "Description": "Trabajo de mecánico automotriz con contrato mínimo de 1 año",
-        "Indispensable": "Eperiencia mayor a 2 años",
+        "Description": "Trabajo de mecánico automotriz con contrato mínimo de 1 anio",
+        "Indispensable": "Eperiencia mayor a 2 anios",
         "Opcional": "De 25 a 50 años",
         "Ubicacion": "Canada Quebec"
     },
@@ -19,8 +19,8 @@
         "img_url": "https://www.svgrepo.com/show/227366/chef.svg",
         "Title": "Chef",
         "Description": "Trabajo de chef con contrato mínimo de 6 meses"
-        "Indispensable": "Eperiencia mayor a 2 años",
-        "Opcional": "De 25 a 45 año, Sexo Masculino",
+        "Indispensable": "Eperiencia mayor a 2 anios",
+        "Opcional": "De 25 a 45 anio, Sexo Masculino",
         "Ubicacion": "Canada Quebec"
     },
     {
@@ -28,7 +28,7 @@
         "Title": "Autolavado",
         "Description": "Trabajo de chef con contrato mínimo de 6 meses"
         "Indispensable": "Sin experiencia necesaria",
-        "Opcional": "De 18 a 50 años, Sexo Indistinto",
+        "Opcional": "De 18 a 50 anios, Sexo Indistinto",
         "Ubicacion": "Canada Toronto"
     }
 ]

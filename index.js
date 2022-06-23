@@ -61,6 +61,6 @@ function openWA() {
 }
 
 function openFB() {
-    var link = "https://www.facebook.com/ozkar.alvarado.7"
+    var link = "https://www.facebook.com/profile.php?id=100075279710129"
     window.open(link, "_blank")
 }

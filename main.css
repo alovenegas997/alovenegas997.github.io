@@ -1,0 +1,192 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+	background: #f0f0f0;
+	color: #1d1d1d;
+}
+
+h3 {
+    display: block;
+    font-size: 1em;
+    margin-top: 0.67em;
+    margin-bottom: 0.2em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: 900;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: 900;
+}
+
+.container {
+	width: 100%;
+	margin: 40px auto 0 auto;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.card {
+    width: 25%;
+    height: 80%;
+    margin: 0 auto 0 auto;
+    flex: 0 0 auto;
+    min-width: 400px;
+}
+
+.inside_car {
+    width: 90%;
+    min-width: 375px;
+    height: 100%;
+    border-radius: 50px;
+    background: #fff;
+    margin: 0 auto 0 auto;
+    padding: 20px;
+    box-shadow: 0 1px 15px #eeeded;
+    font-size: 0.85em;
+    position: relative;
+}
+.img_cont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-30%);
+}
+
+.image {
+    width: 50%;
+    position: relative;
+    padding-top: 50%;
+    background-color: rgb(220, 220, 220);
+    box-shadow: 0 5px 10px rgb(190, 190, 190);
+    border-radius: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-image: url("https://www.svgrepo.com/show/274911/carpenter.svg"); */
+}
+
+.info {
+    margin-top: -40px;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+    background: #1d1d1d;
+	width: 100%;
+    height: 100px;
+    color: #fff;
+	padding: 10px;
+}
+
+.buttons_div {
+    width: 100%;
+    /* min-height: 100px; */
+    /* background: #1d1d1d; */
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 25px;
+    right: 0;
+    /* margin-top: auto; */
+    /* margin-bottom: 0;     */
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    margin-right: 15px;
+    width: 20%;
+    padding-top: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+button:hover {
+    transform: scale(1.1, 1.1);
+}
+button:active {
+    transform: scale(0.9, 0.9);
+}
+
+#WA {
+    background-image: url("https://www.svgrepo.com/show/382712/whatsapp-whats-app.svg");
+}
+
+#FB {
+    background-image: url("https://www.svgrepo.com/show/303107/facebook-messenger-3-logo.svg");
+}
+
+#r_arrow {
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    width: 5vh;
+    max-width: 250px;
+    height: 5vh;
+    opacity: 40%;
+    /* background: #1d1d1d; */
+    z-index: 999;
+    transform: translateY(-50%);
+    background-image: url("https://www.svgrepo.com/show/44093/right-arrow.svg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    
+    /* animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-direction: alternate; */
+    visibility: hidden;
+}
+
+@keyframes example {
+    0%   {
+        /* right: 10px; */
+        opacity: 10%;
+        transform: translateX(-20px);
+        transform: translateY(-50%);
+    }
+    100% {
+        /* right: 10px; */
+        opacity: 60%;
+        transform: translateY(-50%);
+        transform: translateX(20px);
+        /* transform: scale(1); */
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+      scroll-snap-type: x mandatory;
+    }
+    .card {
+        scroll-snap-align: start;
+    }
+  }

@@ -1,26 +1,34 @@
 [
     {
-        "img_url": "https://www.svgrepo.com/show/30066/heart.svg",
-        "Title": "Holaaaaa bb",
-        "Description": "Trabajo carpintero ...... ...... ....... ...... ....... ....... ....... ........ ......... ........",
-        "Indispensable": "Te amo",
-        "Opcional": "+3 meses juntos",
-        "Ubicacion": "Canada Montreal"
+        "img_url": "https://www.svgrepo.com/show/91866/worker.svg",
+        "Title": "Soldador",
+        "Description": "Trabajo de Soldador, contrato mínimo de 1 año",
+        "Indispensable": "Eperiencia mayor a 1 año",
+        "Opcional": "De 18 a 50 años",
+        "Ubicacion": "Canada Toronto"
     },
     {
-        "img_url": "https://www.svgrepo.com/show/30066/heart.svg",
-        "Title": "Holaaaaa bb",
-        "Description": "Trabajo carpintero ...... ...... ....... ...... ....... ....... ....... ........ ......... ........",
-        "Indispensable": "Te amo",
-        "Opcional": "+3 meses juntos",
-        "Ubicacion": "Canada Montreal"
+        "img_url": "https://www.svgrepo.com/show/397225/man-mechanic.svg",
+        "Title": "Mecánico Automotriz",
+        "Description": "Trabajo de mecánico automotriz con contrato mínimo de 1 año",
+        "Indispensable": "Eperiencia mayor a 2 años",
+        "Opcional": "De 25 a 50 años",
+        "Ubicacion": "Canada Quebec"
     },
     {
-        "img_url": "https://www.svgrepo.com/show/13832/heart.svg",
-        "Title": "otro",
-        "Description": "Trabajo carpintero ...... ...... ....... ...... ....... ....... ....... ........ ......... ........",
-        "Indispensable": "Te amo",
-        "Opcional": "+3 meses juntos",
-        "Ubicacion": "Canada Montreal"
+        "img_url": "https://www.svgrepo.com/show/227366/chef.svg",
+        "Title": "Chef",
+        "Description": "Trabajo de chef con contrato mínimo de 6 meses"
+        "Indispensable": "Eperiencia mayor a 2 años",
+        "Opcional": "De 25 a 45 año <br> Sexo Masculino",
+        "Ubicacion": "Canada Quebec"
+    },
+    {
+        "img_url": "https://www.svgrepo.com/show/36489/car-wash.svg",
+        "Title": "Autolavado",
+        "Description": "Trabajo de chef con contrato mínimo de 6 meses"
+        "Indispensable": "Sin experiencia necesaria",
+        "Opcional": "De 18 a 50 año <br> Sexo Indistinto",
+        "Ubicacion": "Canada Toronto"
     }
 ]
